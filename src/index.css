@@ -185,3 +185,40 @@ nav {
   padding: 0.5rem;
   background-color: rgb(189, 241, 182);
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .home {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .left table {
+    min-height: auto;
+  }
+
+  .right {
+    padding: 1rem;
+  }
+
+  .addNew .container form {
+    width: 100%;
+  }
+
+  .addNew .container form label input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .left table td {
+    padding: 0.5rem;
+  }
+
+  .right .total .items {
+    grid-template-columns: 1fr;
+  }
+}
