@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Bike Repair Expense",
+      "price": 5000,
+      "date": "2024-04-07",
+      "id": "1"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Movie Expense",
+      "price": 2537,
+      "date": "2024-04-05",
+      "id": "2"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "Vegetables Expense",
+      "price": 366,
+      "date": "2024-04-01",
+      "id": "3"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Water Expense",
+      "price": 40,
+      "date": "2024-04-02",
+      "id": "4"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "Grocery Expense",
+      "price": 192,
+      "date": "2024-04-03",
+      "id": "5"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "Rice Bag Expense",
+      "price": 2000,
+      "date": "2024-04-05",
+      "id": "6"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "Internet Bills Expense",
+      "price": 1200,
+      "date": "2024-04-06",
+      "id": "7"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Electricity Bill Expense",
+      "price": 724,
+      "date": "2024-04-04",
+      "id": "8"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "Water Expense",
+      "price": 40,
+      "date": "2024-04-05",
+      "id": "9"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Water Expense",
+      "price": 40,
+      "date": "2024-04-06",
+      "id": "10"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Plumbing work Expense",
+      "price": 250,
+      "date": "2024-04-05",
+      "id": "11"
+    },
+    {
+      "payeeName": "Rahul Chowdhary",
+      "expenseDescription": "Tubelight Expense",
+      "price": 149,
+      "date": "2024-04-01",
+      "id": "12"
+    },
+    {
+      "payeeName": "Ramesh Ekka",
+      "expenseDescription": "LPG Expense",
+      "price": 1000,
+      "date": "2024-04-05",
+      "id": "13"
+    }
+  ]
+}

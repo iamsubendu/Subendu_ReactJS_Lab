@@ -1,13 +1,187 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #383131;
+  color: #1ace1a;
+}
+.rahul {
+  background-color: #16e0e0;
+}
+.ramesh {
+  background-color: #179292;
+}
+.i1 {
+  background-color: #adff2f;
+}
+.i2 {
+  background-color: #ff0000;
+}
+.i3 {
+  background-color: #00ffff;
+}
+.bgRed {
+  background-color: #ff0000;
+}
+.red {
+  color: #ff0000;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+}
+
+.home {
+  z-index: 1;
+  margin: 0 auto;
+  position: relative;
+  top: 15vh;
+  display: grid;
+  width: 90vw;
+  grid-template-columns: 65vw calc(100% - 65vw);
+  border: 2px solid #000;
+}
+.left table {
+  width: 100%;
+  min-height: 30vh;
+  border-collapse: separate;
+  border-spacing: 5px;
+  text-align: center;
+}
+.left table thead {
+  background-color: #000;
+  color: #fff;
+}
+.left table td {
+  padding: 10px;
+}
+.left table tbody td:nth-child(1) {
+  background-color: #ffa500;
+}
+.left table tbody td:nth-child(2) {
+  background-color: #00ffff;
+}
+.left table tbody td:nth-child(3) {
+  background-color: #ca0bca;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 7vw 1vw 0 1vw;
+}
+.right button {
+  margin: 0 auto;
+  padding: 8px;
+  background-color: #adff2f;
+}
+.right .total {
+  margin-top: 2rem;
+}
+.right .total .items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.right .total .items p {
+  padding: 0.5rem;
+}
+
+.homeBackground {
+  position: relative;
+  filter: blur(3px);
+  pointer-events: none;
+}
+
+.addNew {
+  margin-left: 10vw;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: 15vh;
+}
+
+.addNew .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addNew .container form {
+  width: 50vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.addNew .container form .header {
+  background-color: rgb(189, 241, 182);
+  padding: 0.3rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.addNew .container form .header h6 {
+  text-align: center;
+}
+.addNew .container form .header p {
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+.addNew .container form label {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.addNew .container form label p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+.addNew .container form label select {
+  width: 12vw;
+}
+.addNew .container form label input[type="text"],
+.addNew .container form label input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 19vw;
+}
+.addNew .container form label input[type="date"] {
+  width: 12vw;
+}
+.addNew .container form .btns {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  gap: 1rem;
+}
+.addNew .container form .btns button {
+  padding: 0.5rem;
+  background-color: rgb(189, 241, 182);
 }
